@@ -7,7 +7,7 @@ menu:
   旅行: /tags/旅行/
   摄影: 
   友链: /friends
-  关于我: /2019/about
+  关于我: /2021/about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -80,7 +80,7 @@ word_count:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
@@ -104,7 +104,7 @@ rss: /atom.xml
 darkmode: true
 
 # 动态背景效果: 0-关闭，1-动态线条(跟随鼠标)
-canvas_bg: 0
+canvas_bg: 1
 
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
@@ -112,7 +112,7 @@ mouse:
   path: /images/mouse.cur
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
-click_effect: 0
+click_effect: 1
 
 # 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
 layout:
@@ -158,7 +158,7 @@ katex:
   copy_tex: false
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2015
+since: 2021
 
 # 是否显示页脚信息(建议保留)
 pageFooter: true
@@ -167,7 +167,7 @@ pageFooter: true
 icp:
   enable: false
   url: "http://www.beian.miit.gov.cn/" # 备案链接
-  text: "浙ICP备88888888" # 备案信息
+  text: "粤ICP备2020142573-1" # 备案信息
 # 公安备案信息尾部显示
 gongan:
   enable: false
